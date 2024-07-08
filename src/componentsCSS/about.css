@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+.About-Image-Container 
+{
+    position: relative;
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.About-Image-Container img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.About-Image-Container h3
+{
+    font-family: 'Poppins';
+    z-index: 1;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 5px 0;
+    color: white;
+}
+
+.About-Image-Container h2
+{
+    font-family: 'Poppins';
+    z-index: 1;
+    font-size: 60px;
+    margin: 5px 0;
+    color: white;
+}
+
+.About-Image-Container h5
+{
+    font-family: 'Poppins';
+    z-index: 1;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 5px 0;
+    color: white;
+}
+
+.About-Image-Container button
+{
+    font-family: 'Poppins';
+    z-index: 2;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    background-color: red;
+    transition: .4s;
+    margin: 10px 0;
+}
+
+.About-Image-Container button:hover
+{
+    color: white;
+    background-color: rgb(162, 1, 1);
+    border: 1px solid white;
+}
+
+.About-Image-Container h2 span 
+{
+    -webkit-text-stroke: 1px darkred;
+    color: red;
+}
+
+@media (max-width: 768px) and (min-width: 700px)
+{
+    .About-Container
+    {
+        width: 150%;
+    }
+}
+
+@media (max-width: 700px) and (min-width: 650px)
+{
+    .About-Container
+    {
+        width: 180%;
+    }
+}
+
+@media (max-width: 650px) and (min-width: 600px)
+{
+    .About-Container
+    {
+        width: 190%;
+    }
+}
+
+@media (max-width: 600px) and (min-width: 550px)
+{
+    .About-Container
+    {
+        width: 200%;
+    }
+}
+
+@media (max-width: 550px) and (min-width: 500px)
+{
+    .About-Container
+    {
+        width: 210%;
+    }
+}
+
+@media (max-width: 500px) and (min-width: 450px)
+{
+    .About-Container
+    {
+        width: 230%;
+    }
+}
+
+@media (max-width: 450px) and (min-width: 400px)
+{
+    .About-Container
+    {
+        width: 240%;
+    }
+}
+
+@media (max-width: 400px) and (min-width: 350px)
+{
+    .About-Container
+    {
+        width: 270%;
+    }
+}
+
+@media (max-width: 350px) and (min-width: 300px)
+{
+    .About-Container
+    {
+        width: 300%;
+    }
+}
