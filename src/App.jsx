@@ -16,11 +16,11 @@ function App() {
         <Element name='Pricing'>
           <Pricing/>
         </Element>
-        <Element name='AboutUs'>
-          <About/>
-        </Element>
         <Element name='ContactUs'>
           <Contact/>
+        </Element>
+        <Element name='AboutUs'>
+          <About/>
         </Element>
       <Footer />
     </>

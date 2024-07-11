@@ -1,46 +1,44 @@
 import React from 'react'
-import Send from '../images/sendIcon.png'
-import Image from '../images/img1.jpg'
-import WhatsappImage from '../images/whatsappImg.png'
 import '../componentsCSS/contact.css'
+import CoachImage1 from '../images/coach1.jpeg'
+import CoachImage2 from '../images/coach2.jpeg'
 
 const contact = () => {
-
-  let handleSumbit = (event) =>
-  {
-    event.preventDefault();
-  }
-
-  let handleWhatsappClick = () =>
-  {
-    const phoneNumber = '03018171334';
-    const message = 'Hello i would like to get in touch with you';
-    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-    window.open(whatsappURL,'_blank')
-  }
-
   return (
     <div className='Contact-Container'>
-      <h1>Contact Us</h1>
-      <div className="Form-Image-Container">
-          <div className="Form-Container">
-              <form action="" onSubmit={handleSumbit}>
-                  <input type="text" name="" id="" placeholder='Enter Your Name ' required/>
-                  <input type="email" name="" id="" placeholder='Enter Your Email' required/>
-                  <input type="tel" name="" id="" placeholder='Enter Your Phone-No' required/>
-                  <h5>Enter Joining Date:</h5>
-                  <input type="date" name="" id="" required/>
-                  <textarea name="message" id="" placeholder='Enter Your Message...'/>
-                  <button className='Msg-Btn'>SEND MESSAGE <span><img src={Send} alt="" className='Form-Image'/></span></button>
-                  <div className="Whatsapp-Btn">
-                    <button onClick={handleWhatsappClick}>WHATSAPP <span><img src={WhatsappImage} alt="" className='Form-Image'/></span></button>
-                  </div>
-              </form>
+      
+      <hr />
+
+      <div className="Coach1-Data">
+          <div className="Coach1-Image-Container">
+            <img src={CoachImage1} alt="Coach1 Image" />
+            {/* <h5>Owner & Coach</h5> */}
           </div>
-          <div className="Contact-Image-Container">
-              <img src={Image} alt="" />
+          <div className="Contact-Coach1">
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, minus ab vel voluptas atque nostrum obcaecati veniam modi a vero?
+              Voluptatibus accusantium tempora, dicta ad quisquam ea maiores iste error consectetur quasi dolorum quis explicabo eos corrupti, nesciunt
+              quo molestiae, nostrum illum nam numquam inventore velit. A est consectetur cupiditate.</h4>
+            <button>Contact Mr.Riaz</button>
           </div>
       </div>
+
+      <hr />
+
+      <div className="Coach2-Data">
+          <div className="Contact-Coach2">
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, minus ab vel voluptas atque nostrum obcaecati veniam modi a vero?
+              Voluptatibus accusantium tempora, dicta ad quisquam ea maiores iste error consectetur quasi dolorum quis explicabo eos corrupti, nesciunt
+              quo molestiae, nostrum illum nam numquam inventore velit. A est consectetur cupiditate.</h4>
+            <button>Contact Mr.Rizwan</button>
+          </div>
+          <div className="Coach2-Image-Container">
+            <img src={CoachImage2} alt="Coach2 Image" />
+            {/* <h5>Coach</h5> */}
+          </div>
+      </div>
+
+      <hr />
+
     </div>
   )
 }

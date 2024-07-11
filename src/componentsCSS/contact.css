@@ -1,142 +1,110 @@
 .Contact-Container
 {
     align-items: center;
-    justify-content: space-between;
-    padding: 0 10%;
+    padding: 10% 5%;
+    justify-content: center;
+
+}
+
+.Coach1-Data
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
     padding-top: 5%;
-    margin-bottom: 5%;
+    /* background-color: bisque; */
 }
 
-.Contact-Container h1
+.Coach2-Data
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    padding-bottom: 5%;
+    padding-top: 10%;
+    /* background-color: aqua; */
+}
+
+
+.Coach1-Image-Container img
+{
+    width: 300px;
+    height: 400px;
+}
+
+.Contact-Coach1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5%;
+}
+
+.Contact-Coach2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5%;
+}
+
+.Contact-Coach1 button
+{
     font-family: 'poppins';
-    font-size: 40px;
-    padding-bottom: 3%;
-    text-decoration: underline;
-}
-
-.Form-Image-Container
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.Form-Container
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 1;
-    border: 2px solid grey;
-    padding: 20px 15px;
-}
-
-.Form-Container form
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 1;
-}
-
-.Form-Container input
-{
-    font-size: 16px;
-    padding: 10px;
-    margin-bottom: 2%;
-    cursor: pointer;
-}
-
-.Form-Container .Msg-Btn
-{
+    font-size: 20px;
     background-color: red;
-    color: white;
-    cursor: pointer;
     border-radius: 10px;
-    display: flex;
-    font-weight: 600;
-    justify-content: center;
-    align-items: center;
-    transition: .2s;
-}
-
-.Whatsapp-Btn button
-{
-    background-color: rgb(1, 212, 1);
-    cursor: pointer;
-    border-radius: 10px;
-    display: flex;
-    transition: .2s;
-    font-weight: 600;
-    width: 100%;
-    height: 55px;
     color: white;
-    margin-top: 2%;
-    justify-content: center;
-    align-items: center;
+    padding: 1% 1%;
+    cursor: pointer;
+    margin-top: 5%;
+    font-weight: 600;
+    transition: .1s;
 }
 
-.Whatsapp-Btn button:hover
+.Contact-Coach1 button:hover
 {
-    background-color: rgb(17, 240, 17);
+    border: 1px solid red;
+    box-shadow: 0 0 20px red;
 }
 
-.Whatsapp-Btn img
+.Contact-Coach2 button
 {
-    margin: 0 5px;
-    height: 35px;
-    width: 40px;
-}
-
-.Form-Container .Msg-Btn:hover
-{
-    background-color: rgb(255, 82, 82);
-    font-weight: 700;
-}
-
-.Form-Container h5
-{
-    margin: 0;
-    font-weight: 500;
     font-family: 'poppins';
+    font-size: 20px;
+    background-color: red;
+    border-radius: 10px;
     color: white;
+    padding: 1% 1%;
+    cursor: pointer;
+    margin-top: 5%;
+    font-weight: 600;
+    transition: .1s;
 }
 
-.Form-Container .Msg-Btn img
+.Contact-Coach2 button:hover
 {
-    margin-left: 10px;
-    margin-bottom: 15px;
+    border: 1px solid red;
+    box-shadow: 0 0 20px red;
 }
 
-.Form-Container .Msg-Btn span
+.Contact-Coach1 h4
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: white;
+    font-family: 'poppins';
 }
 
-.Form-Container textarea
+.Coach2-Image-Container img
 {
-    margin-bottom: 2%;
-    height: 200px;
-    resize: none;
+    width: 300px;
+    height: 400px;
 }
 
-.Form-Image
+.Contact-Coach2 h4
 {
-    margin-top: 10px;
-    margin-left: 20px;
-    width: 30px;
-    height: 30px;
-}
-
-.Contact-Image-Container img
-{
-    height: 550px;
-    width: 750px;
+    color: white;
+    font-family: 'poppins';
 }

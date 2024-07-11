@@ -22,7 +22,7 @@ const Navbar = () => {
         &#9776;
       </div>
       <ul className={menuActive ? 'active' : ''}>
-        {['Home', 'Pricing', 'About Us', 'Contact Us'].map((item) => ( 
+        {['Home', 'Pricing', 'Contact Us', 'About Us'].map((item) => ( 
           <li key={item} className={activeNav === item ? 'active' : ''}>
             <Link 
               to={item.replace(' ', '')} 

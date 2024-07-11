@@ -1,32 +1,77 @@
 .Footer-Container
 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: white;
     justify-content: center;
-    color: white;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
     font-family: 'poppins';
-}
-
-.Footer-Container h4
-{
-    font-weight: 500;
-    color: rgb(181, 179, 179);
-}
-
-.Footer-Container span
-{
-    color: white;
-    font-weight: 600;
-}
-
-.Footer-Container span:hover
-{
-    cursor: pointer;
-    text-decoration: underline;
 }
 
 .Footer-Container hr
 {
-    width: 90%;
+    width: 100%;
+}
+
+.Rights-Container h4
+{
+    margin-top: 18%;
+}
+
+.Rights-Container span
+{
+    color: rgb(176, 176, 176);
+    cursor: pointer;
+}
+
+.Rights-Container span:hover
+{
+    text-decoration: underline;
+}
+
+.Social-And-Rights-Container
+{
+    display: flex;
+    gap: 55%;
+}
+
+.Social-Media-Container h5
+{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 10%;
+    white-space: nowrap;
+}
+
+.Social-Media-Container .instaImg
+{
+    height: 50px;
+    width: 45px;
+    margin-left: 20%;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.Social-Media-Container .instaImg:hover
+{
+    border-radius: 10px;
+    background-color: rgba(174, 174, 174, 0.588);
+}
+
+.Social-Media-Container .whatsappImg
+{
+    height: 47px;
+    width: 55px;
+    margin-left: 5%;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.Social-Media-Container .whatsappImg:hover
+{
+    border-radius: 10px;
+    background-color: rgba(174, 174, 174, 0.588);
 }
