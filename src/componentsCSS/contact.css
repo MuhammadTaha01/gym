@@ -26,11 +26,35 @@
     /* background-color: aqua; */
 }
 
+.Coach1-Image-Container
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
+.Coach2-Image-Container
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .Coach1-Image-Container img
 {
     width: 300px;
     height: 400px;
+}
+
+.Coach1-Image-Container h5
+{
+    margin: 0;
+    margin-top: 2%;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'poppins';
+    background: linear-gradient(to right, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .Contact-Coach1
@@ -69,6 +93,18 @@
 {
     border: 1px solid red;
     box-shadow: 0 0 20px red;
+}
+
+.Coach2-Image-Container h5
+{
+    margin: 0;
+    margin-top: 2%;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'poppins';
+    background: linear-gradient(to right, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .Contact-Coach2 button

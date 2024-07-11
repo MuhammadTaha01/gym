@@ -63,7 +63,8 @@
 
 .Social-Media-Container .whatsappImg
 {
-    height: 47px;
+    height: 45px;
+    margin-bottom: 1%;
     width: 55px;
     margin-left: 5%;
     cursor: pointer;
