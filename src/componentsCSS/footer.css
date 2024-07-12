@@ -99,7 +99,7 @@
     }
     .Social-And-Rights-Container
     {
-        gap: 100px;
+        gap: 150px;
         margin: 0;
         margin-bottom: 10%;
         display: flex;    
@@ -107,16 +107,31 @@
     .Social-Media-Container .instaImg
     {
         margin: 0;
-        padding-left: 12%;
+        margin-left: 12%;
         height: 35px;
         width: 35px;
+        border-radius: 10px;
+        animation: blink 0.9s infinite alternate ease-in-out;
     }
     .Social-Media-Container .whatsappImg
     {
         margin: 0;
-        padding-left: 10%;
-        height: 35px;
-        width: 40px;
+        margin-left: 10%;
+        height: 33px;
+        width: 43px;
+        border-radius: 10px;
+        animation: blink 0.9s infinite alternate ease-in-out;
+    }
+    @keyframes blink 
+    {
+        from 
+        { 
+            background-color: grey; 
+        }
+        to 
+        { 
+            background-color: transparent; 
+        }
     }
     .Social-And-Rights-Container h5
     {
