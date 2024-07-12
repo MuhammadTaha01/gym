@@ -76,6 +76,7 @@ body,html
     {
         position: fixed;
         width: 100%;
+        padding-bottom: 1%;
         background-color: black;
     }
     .Navbar-Container ul 
@@ -89,6 +90,7 @@ body,html
       top: 75px;
       left: 0;
       padding: 0;
+      padding-bottom: 5%;
       padding-right: 100px;
     }
   
