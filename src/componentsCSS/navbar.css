@@ -63,3 +63,63 @@ body,html
 {
     background-color: red;
 }
+
+/* This is for responsiveness */
+@media (max-width: 480px) 
+{
+    body,html
+    {
+        padding-top: 20px;
+        overflow-x: hidden;
+    }
+    .Navbar-Container
+    {
+        position: fixed;
+        width: 100%;
+        background-color: black;
+    }
+    .Navbar-Container ul 
+    {
+      position:sticky;
+      display: none;
+      flex-direction: column;
+      width: 88%;
+      background-color: black;
+      position: absolute;
+      top: 75px;
+      left: 0;
+      padding: 0;
+      padding-right: 100px;
+    }
+  
+    .Navbar-Container ul.active 
+    {
+      display: flex;
+    }
+  
+    .Navbar-Container .menu-button {
+      display: block;
+      color: white;
+      font-size: 20px;
+      margin-right: 5%;
+    }
+  
+    .Navbar-Container li 
+    {
+      width: 100%;
+      text-align: center;
+      margin: 0;
+    }
+  
+    .Navbar-Container ul li a 
+    {
+      display: block;
+      width: 100%;
+      color: white;
+      text-decoration: none;
+    }
+    .Navbar-Container ul li
+    {
+        background-color: black;
+    }
+}
