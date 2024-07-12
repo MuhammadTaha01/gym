@@ -97,7 +97,8 @@ body,html
       display: flex;
     }
   
-    .Navbar-Container .menu-button {
+    .Navbar-Container .menu-button 
+    {
       display: block;
       color: white;
       font-size: 20px;
@@ -110,7 +111,6 @@ body,html
       text-align: center;
       margin: 0;
     }
-  
     .Navbar-Container ul li a 
     {
       display: block;
