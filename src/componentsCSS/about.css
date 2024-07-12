@@ -91,15 +91,15 @@
     {
         justify-content: center;
         align-items: center;
-        margin-left: 7%;
-        font-size: 50px;
+        margin-left: 9%;
+        font-size: 40px;
         white-space: wrap;
     }
     .About-Image-Container h2 span
     {
         white-space: wrap;
-        margin-left: 12%;
-        font-size: 60px;
+        margin-left: 9%;
+        font-size: 55px;
         font-weight: 800;
         background: linear-gradient(to bottom, red, rgb(219, 144, 3));
         -webkit-text-fill-color: transparent;

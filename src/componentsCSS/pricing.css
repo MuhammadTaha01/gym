@@ -155,3 +155,9 @@
 {
     width: 75%;
 }
+
+/* This is section is made for Responsiveness */
+@media (max-width: 480px)
+{
+    
+}
