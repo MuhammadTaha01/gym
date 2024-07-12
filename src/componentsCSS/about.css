@@ -78,3 +78,36 @@
     -webkit-text-stroke: 1px darkred;
     color: red;
 }
+
+/* This section is for responsiveness */
+@media (max-width: 480px)
+{
+    .About-Image-Container img
+    {
+        width: 100%;
+        object-fit: cover;
+    }
+    .About-Image-Container h2
+    {
+        justify-content: center;
+        align-items: center;
+        margin-left: 7%;
+        font-size: 50px;
+        white-space: wrap;
+    }
+    .About-Image-Container h2 span
+    {
+        white-space: wrap;
+        margin-left: 12%;
+        font-size: 60px;
+        font-weight: 800;
+        background: linear-gradient(to bottom, red, rgb(219, 144, 3));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .About-Image-Container h5
+    {
+        white-space: nowrap;
+        font-size: 12px;
+    }
+}
