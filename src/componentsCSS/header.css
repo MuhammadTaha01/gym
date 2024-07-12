@@ -52,7 +52,9 @@
   font-weight: 800;
   font-size: 80px;
   -webkit-text-stroke: 1px darkred;
-  color: red;
+  background: linear-gradient(to bottom,red,rgb(203, 135, 9));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin: 0;
   padding: 0;
 }
