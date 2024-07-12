@@ -159,5 +159,58 @@
 /* This is section is made for Responsiveness */
 @media (max-width: 480px)
 {
-    
+    @keyframes boxAnimation 
+    {
+        from
+        {
+          box-shadow: 0 0 0 transparent;
+        }   
+        to
+        {
+            box-shadow: 0 0 35px red;
+        } 
+    }
+    .Pricing-Text-Container
+    {
+        font-size: 30px;
+    }
+    .Pricing-Boxes
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .box1, 
+    .box2, 
+    .box3
+    {
+        animation: boxAnimation 0.7s infinite alternate ease-in-out;
+        padding: 0% 3%;
+        margin-left: 7%;
+    }
+    .box1 img
+    {
+        margin-left: 7%;
+    }
+    .box2 .Pin-Image
+    {
+        margin-left: 32%;
+        top: 283%;
+    }
+}
+
+@media (max-width: 455px)
+{
+    .box2 .Pin-Image
+    {
+        margin-left: 35%;
+    }
+}
+
+@media (max-width: 443px)
+{
+    .box2 .Pin-Image
+    {
+        top: 282%;
+        margin-left: 38%;
+    }
 }
