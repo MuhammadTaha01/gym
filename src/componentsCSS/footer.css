@@ -78,3 +78,53 @@
     border-radius: 10px;
     background-color: rgba(174, 174, 174, 0.588);
 }
+
+/* This section is for responsiveness */
+@media (max-width: 480px)
+{
+    .Footer-Container
+    {
+        padding: 0;
+        margin: 0;
+        width: 90%;
+        padding-left: 5%;
+    }
+    .Footer-Container hr
+    {
+        margin-top: 15%;
+    }
+    .Social-Media-Container
+    {
+        width: 50%;    
+    }
+    .Social-And-Rights-Container
+    {
+        gap: 100px;
+        margin: 0;
+        margin-bottom: 10%;
+        display: flex;    
+    }
+    .Social-Media-Container .instaImg
+    {
+        margin: 0;
+        padding-left: 12%;
+        height: 35px;
+        width: 35px;
+    }
+    .Social-Media-Container .whatsappImg
+    {
+        margin: 0;
+        padding-left: 10%;
+        height: 35px;
+        width: 40px;
+    }
+    .Social-And-Rights-Container h5
+    {
+        font-size: 10px;
+    }
+    .Rights-Container h4
+    {
+        white-space: wrap;
+        font-size: 10px;
+    }
+}
