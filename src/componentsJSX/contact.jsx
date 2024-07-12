@@ -31,15 +31,15 @@ const contact = () => {
       <hr />
 
       <div className="Coach2-Data">
+          <div className="Coach2-Image-Container">
+            <img src={CoachImage2} alt="Coach2 Image" />
+            <h5>Coach</h5>
+          </div>
           <div className="Contact-Coach2">
             <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, minus ab vel voluptas atque nostrum obcaecati veniam modi a vero?
               Voluptatibus accusantium tempora, dicta ad quisquam ea maiores iste error consectetur quasi dolorum quis explicabo eos corrupti, nesciunt
               quo molestiae, nostrum illum nam numquam inventore velit. A est consectetur cupiditate.</h4>
             <button onClick={()=>handleWhatsappRedrict('03018171334')}>Contact Mr.Rizwan</button>
-          </div>
-          <div className="Coach2-Image-Container">
-            <img src={CoachImage2} alt="Coach2 Image" />
-            <h5>Coach</h5>
           </div>
       </div>
 
