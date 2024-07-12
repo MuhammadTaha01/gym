@@ -15,7 +15,7 @@ const footer = () => {
               <img className='whatsappImg' src={whatsapp} alt="Whatsapp" />
             </div>
             <div className="Rights-Container">
-              <h4>ALL RIGHTS RESERVED BY <span>@GRAVITY-GYM 2024</span> </h4>
+              <h4>&copy; ALL RIGHTS RESERVED BY <span>@GRAVITY-GYM 2024</span> </h4>
             </div>
         </div>
 

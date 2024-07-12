@@ -18,11 +18,13 @@
 
 .Rights-Container h4
 {
+    white-space: nowrap;
     margin-top: 18%;
 }
 
 .Rights-Container span
 {
+    font-weight: 500;
     color: rgb(176, 176, 176);
     cursor: pointer;
 }
