@@ -1,0 +1,85 @@
+.Bmi-Container
+{
+    color: white;
+    padding: 10% 5%;
+}
+
+.Bmi-Text
+{
+    padding-top: 5%;
+    display: flex;
+    font-size: 30px;
+    font-family: 'Zeyada';
+    justify-content: center;
+}
+
+.Bmi-Inputs
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20%;
+    padding-bottom: 2%;
+}
+
+.Bmi-Inputs input::placeholder
+{
+    font-size: 15px;
+}
+
+.Bmi-Inputs input
+{
+    padding: 1% 3%;
+    font-size: 20px;
+    margin: 2% 0;
+    border-radius: 10px;
+}
+
+.Bmi-Feet-Inches
+{
+    display: flex;
+}
+.Bmi-Feet-Inches .Inches
+{
+    margin-left: 25%;
+}
+
+.Bmi-Result
+{
+    font-family: 'poppins';
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.Bmi-Container button
+{
+    padding: 0 3%;
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 30px;
+    cursor: pointer;
+    border: 1px solid red;
+    color: pink;
+    background-color: red;
+    border-radius: 10px;
+    animation: textBlinking 0.8s infinite ease-in-out;
+    transition: .3s;
+}
+
+.Bmi-Container button:hover
+{
+    background-color: rgb(201, 4, 4);
+}
+
+@keyframes textBlinking
+{
+    from
+    {
+        color: white;
+    }
+    to
+    {
+        color: pink;
+    }
+}
