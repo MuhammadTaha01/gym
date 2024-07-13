@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Zeyada&display=swap');
+
+.Counter-Container hr
+{
+    background-color: green;
+}
+
+.Counter-Container
+{
+    color: white;
+    padding: 5% 10%;
+}
+
+.Counter-Text
+{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, pink,rgb(213, 20, 20),pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'poppins';
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.Counter-Data-Container
+{
+    display: flex;
+    gap: 220px;
+}
+
+.Counter1,
+.Counter2,
+.Counter3
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Counter1 h1,
+.Counter2 h1,
+.Counter3 h1
+{
+    font-family: 'poppins';
+}
+
+.Counter1 h3,
+.Counter2 h3
+{
+    white-space: nowrap;
+    color: palevioletred;
+    font-size: 30px;
+    font-family: 'Zeyada';
+}
+
+.Counter3 h3
+{
+    white-space: nowrap;
+    color: palevioletred;
+    font-size: 30px;
+    font-family: 'Zeyada';
+}
+
