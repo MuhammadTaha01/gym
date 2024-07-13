@@ -194,7 +194,7 @@
     .box2 .Pin-Image
     {
         margin-left: 32%;
-        top: 283%;
+        top: 285%;
     }
 }
 
@@ -210,7 +210,34 @@
 {
     .box2 .Pin-Image
     {
-        top: 282%;
-        margin-left: 38%;
+        top: 285%;
+        margin-left: 36%;
+    }
+}
+
+@media (max-width: 420px)
+{
+    .box2 .Pin-Image
+    {
+        top: 283%;
+        margin-left: 40%;
+    }
+}
+
+@media (max-width: 352px)
+{
+    .box2 .Pin-Image
+    {
+        top: 285%;
+        margin-left: 47%;
+    }
+}
+
+@media (max-width: 335px)
+{
+    .box2 .Pin-Image
+    {
+        top: 288%;
+        margin-left: 47%;
     }
 }
