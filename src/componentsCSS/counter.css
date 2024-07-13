@@ -63,3 +63,27 @@
     font-family: 'Zeyada';
 }
 
+.Hr-2,
+.Hr-3
+{
+    display: none;
+}
+
+/* This section is for responsiveness */
+@media (max-width: 480px)
+{
+    .Hr-2,
+    .Hr-3
+    {
+        display: flex;
+    }
+
+    .Counter-Container .Counter-Data-Container
+    {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
