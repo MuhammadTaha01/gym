@@ -6,6 +6,7 @@ import Contact from './componentsJSX/contact';
 import Footer from './componentsJSX/footer';
 import Counter from './componentsJSX/counter'
 import BMI from './componentsJSX/bmi'
+import Banner from './componentsJSX/download'
 import { Element } from 'react-scroll';
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
 
         {/* For BMI Calculator */}
         <BMI/>
+
+        {/* For brocheur */}
+        <Banner/>
 
         {/* For About-Us */}
         <Element name='AboutUs'>
