@@ -8,6 +8,7 @@
 {
     padding-top: 5%;
     display: flex;
+    color: palevioletred;
     font-size: 30px;
     font-family: 'Zeyada';
     justify-content: center;
@@ -81,5 +82,42 @@
     to
     {
         color: pink;
+    }
+}
+
+/* This section is for responsiveness */
+@media (max-width: 480px)
+{
+    .Bmi-Container
+    {
+        padding: 5% 3%;
+    }
+    .Bmi-Text h1
+    {
+        font-size: 30px;
+        color: palevioletred;
+    }
+    .Bmi-Inputs .Bmi-Feet-Inches
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .Bmi-Feet-Inches .Feet
+    {
+        margin-bottom: 4%;
+    }
+    .Bmi-Feet-Inches .Inches
+    {
+        margin: 0;
+        margin-bottom: 5%;
+    }
+    .Bmi-Inputs button
+    {
+        margin-top: 5%;
+        font-size: 20px;
+    }
+    .Bmi-Result h1
+    {
+        font-size: 20px;
     }
 }
