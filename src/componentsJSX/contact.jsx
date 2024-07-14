@@ -21,10 +21,11 @@ const contact = () => {
             <h5>Owner & Coach</h5>
           </div>
           <div className="Contact-Coach1">
-            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, minus ab vel voluptas atque nostrum obcaecati veniam modi a vero?
-              Voluptatibus accusantium tempora, dicta ad quisquam ea maiores iste error consectetur quasi dolorum quis explicabo eos corrupti, nesciunt
-              quo molestiae, nostrum illum nam numquam inventore velit. A est consectetur cupiditate.</h4>
-            <button onClick={()=>handleWhatsappRedrict('03018171334')}>Contact Mr.Riaz</button>
+            <h4>Riaz, with over 20 years of personal gym experience and more than 2 years as a certified trainer, serves as both the owner and head 
+              coach of the gym. With a deep passion for fitness and extensive expertise in training, Riaz brings a wealth of knowledge to his clients. 
+              His commitment to personalized coaching and dedication to helping individuals achieve their fitness goals define his approach at the gym, 
+              making him a trusted mentor in the fitness community.</h4>
+            <button onClick={()=>handleWhatsappRedrict('03068555015')}>Contact Mr.Riaz</button>
           </div>
       </div>
 
@@ -36,10 +37,11 @@ const contact = () => {
             <h5>Coach</h5>
           </div>
           <div className="Contact-Coach2">
-            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, minus ab vel voluptas atque nostrum obcaecati veniam modi a vero?
-              Voluptatibus accusantium tempora, dicta ad quisquam ea maiores iste error consectetur quasi dolorum quis explicabo eos corrupti, nesciunt
-              quo molestiae, nostrum illum nam numquam inventore velit. A est consectetur cupiditate.</h4>
-            <button onClick={()=>handleWhatsappRedrict('03018171334')}>Contact Mr.Rizwan</button>
+            <h4>Mr. Rizwan, the sole coach at the gym, boasts over 5 years of experience as a dedicated trainer. His focused expertise and commitment to
+               fitness training define his coaching style. With a passion for guiding individuals towards their fitness milestones, Mr. Rizwan offers 
+               personalized training sessions tailored to meet the unique goals of each client. His hands-on approach and supportive demeanor create a 
+               motivating environment where clients can thrive and achieve lasting fitness results.</h4>
+            <button onClick={()=>handleWhatsappRedrict('03244296677')}>Contact Mr.Rizwan</button>
           </div>
       </div>
 

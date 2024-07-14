@@ -15,21 +15,21 @@ const counter = () => {
                 </div> */}
                 <div className="Counter-Data-Container">
                     <div className="Counter1">
-                        <h1> {counterOn && <CountUp start={6} end={150} duration={5}/>} + </h1>
+                        <h1> {counterOn && <CountUp start={6} end={1000} duration={5}/>} + </h1>
                         <h3> Happy Customers</h3>
                     </div>
 
                     <hr className='Hr-2'/>
 
                     <div className="Counter2">
-                        <h1> {counterOn && <CountUp start={0} end={6} duration={10}/>} + </h1>
+                        <h1> {counterOn && <CountUp start={0} end={20} duration={10}/>} + </h1>
                         <h3>Years Of Experience</h3>
                     </div>
 
                     <hr className='Hr-3'/>
 
                     <div className="Counter3">
-                        <h1> {counterOn && <CountUp start={13} end={90} duration={5}/>} : {counterOn && <CountUp start={0} end={10} duration={5}/>} </h1>
+                        <h1> {counterOn && <CountUp start={13} end={90} duration={5}/>} : {counterOn && <CountUp start={0} end={40} duration={5}/>} </h1>
                         <h3>Ratio Of Males & Females in gym</h3>
                     </div>
                 </div>
