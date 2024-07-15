@@ -17,7 +17,9 @@ const header = () => {
                 <h6>BUILD YOUR BODY AND FITNESS WITH PROFESSIONAL TOUCH</h6>
             </div>
             <div className="Join-Btn">
+            <a href="https://chat.whatsapp.com/LqPVost8HWE12HZQqbdBVQ5">
                 <button>JOIN NOW</button>
+            </a>
             </div>
         </div>
     </div>

@@ -6,6 +6,10 @@ import Img3 from '../images/gymIcon3.png'
 import Pinimg from '../images/pinImage.png'
 
 const pricing = () => {
+  const handleWhatsappRedrict = (phoneNumber) =>
+    {
+      window.open(`https://wa.me/${phoneNumber}`,'_blank');
+    }
   return (
     <div className='Pricing-Container'>
       <div className="Pricing-Text-Container">
@@ -24,13 +28,13 @@ const pricing = () => {
               <h5>✅ Group fitness classes</h5>
               <h5>✅ Locker room access</h5>
               <h5>✅ Free parking</h5>
-              <button>BUY THIS PLAN</button>
+              <button onClick={()=>handleWhatsappRedrict('03068555015')}>BUY THIS PLAN</button>
           </div>
           <div className="box2">
               <img className='Pin-Image' src={Pinimg} alt="" />
               <img src={Img2} alt="" />
               <h1>Gravity Basic Monthly</h1>
-              <h3>6,000 - PKR</h3>
+              <h3>4,000 - PKR</h3>
               <hr className='Hr'/>
               <h5>✅ Access to all gym equipment</h5>
               <h5>✅ Access to cardio machines</h5>
@@ -38,12 +42,12 @@ const pricing = () => {
               <h5>✅ Group fitness classes (limited)</h5>
               <h5>✅ Locker room access</h5>
               <h5>✅ Free parking</h5>
-              <button>BUY THIS PLAN</button>
+              <button onClick={()=>handleWhatsappRedrict('03068555015')}>BUY THIS PLAN</button>
           </div>
           <div className="box3">
               <img src={Img3} alt="" />
               <h1>ZUMBA</h1>
-              <h3>15,000 - PKR</h3>
+              <h3>5,000 - PKR</h3>
               <hr className='Hr'/>
               <h5>✅ Access to all gym equipment</h5>
               <h5>✅ Access to cardio machines</h5>
@@ -51,7 +55,7 @@ const pricing = () => {
               <h5>✅ Unlimited group fitness classes</h5>
               <h5>✅ Locker room access</h5>
               <h5>✅ Free parking</h5>
-              <button className='Btn'>BUY THIS PLAN</button>
+              <button className='Btn' onClick={()=>handleWhatsappRedrict('03068555015')}>BUY THIS PLAN</button>
           </div>
       </div>
     </div>
