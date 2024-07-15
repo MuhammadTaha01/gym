@@ -3,6 +3,10 @@ import '../componentsCSS/header.css'
 import Headerimg from '../images/img01.jpg'
 
 const header = () => {
+    let joinChannel = () =>
+        {
+          window.open("https://chat.whatsapp.com/LqPVost8HWE12HZQqdBVQ5")
+        }
   return (
     <div className='Header-Container'>
             <img className='Background-Img' src={Headerimg} alt="GYM IMAGE" />
@@ -17,9 +21,7 @@ const header = () => {
                 <h6>BUILD YOUR BODY AND FITNESS WITH PROFESSIONAL TOUCH</h6>
             </div>
             <div className="Join-Btn">
-            <a href="https://chat.whatsapp.com/LqPVost8HWE12HZQqbdBVQ5">
-                <button>JOIN NOW</button>
-            </a>
+                <button onClick={joinChannel}>JOIN NOW</button>
             </div>
         </div>
     </div>

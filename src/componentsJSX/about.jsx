@@ -5,7 +5,7 @@ import Aboutimg from '../images/img2.jpg'
 const about = () => {
   let joinChannel = () =>
   {
-    window.open("https://chat.whatsapp.com/LqPVost8HWE12HZQqbdBVQ5")
+    window.open("https://chat.whatsapp.com/LqPVost8HWE12HZQqdBVQ5")
   }
   return (
     <div className='About-Container'>
