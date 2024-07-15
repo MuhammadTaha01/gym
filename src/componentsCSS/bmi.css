@@ -121,3 +121,13 @@
         font-size: 20px;
     }
 }
+
+/* This section is for responsiveness for Tablets and small laptops */
+@media (min-width: 480px) and (max-width: 1024px) 
+{
+  .Bmi-Container 
+  {
+    width: 260%;
+    padding: 5% 30%;
+  }
+}

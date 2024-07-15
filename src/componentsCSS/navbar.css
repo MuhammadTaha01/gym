@@ -125,3 +125,12 @@ body,html
         background-color: black;
     }
 }
+
+/* This section is for responsiveness for Tablets and small laptops */
+@media (min-width: 480px) and (max-width: 1024px) 
+{
+  .Navbar-Container 
+  {
+    width: 329%;
+  }
+}

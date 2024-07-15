@@ -265,3 +265,34 @@
         margin-left: 40%;
     }
 }
+
+/* This section is for responsiveness for Tablets and small laptops */
+@media (min-width: 480px) and (max-width: 1024px) 
+{
+  .Pricing-Container 
+  {
+    width: 260%;
+    padding: 5% 25%;
+  }
+  .box2 .Pin-Image
+  {
+    display: none;
+  }
+  @keyframes boxAnimation 
+    {
+        from
+        {
+          box-shadow: 0 0 0 transparent;
+        }   
+        to
+        {
+            box-shadow: 0 0 35px red;
+        } 
+    }
+    .box1,
+    .box2,
+    .box3
+    {
+        animation: boxAnimation 0.7s infinite alternate ease-in-out;
+    }
+}

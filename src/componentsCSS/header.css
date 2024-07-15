@@ -88,3 +88,16 @@
   background-color: rgb(162, 1, 1);
   border: 1px solid white;
 }
+
+/* This section is for responsiveness for Tablets and small laptops */
+@media (min-width: 480px) and (max-width: 1024px) 
+{
+  .Header-Container 
+  {
+    width: 320%;
+  }
+  .Header-Container img
+  {
+    margin-left: 35%;
+  }
+}
